@@ -1,0 +1,54 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: "PF Din";
+    src: url("../fonts/pfdindisplaypro-med-webfont.ttf");
+}
+@font-face {
+    font-family: "PF Din Cond";
+    src: url("../fonts/pfdintextcondpro-medium-webfont.ttf");
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-B.ttf");
+}
+html {
+    overflow-y: scroll;
+	background: white;
+    font-size: 20px;
+    font-family: "PF Din";
+}
+h1 {
+    color: rgb(21,32,79);
+    font-size: 2.5em;
+    text-shadow: 3px 3px 0 white;
+    font-family: "Ubuntu", sans-serif;
+	line-height: 0em;
+}
+#centerpoint {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+#dialog {
+    position: relative;
+    width: 480px;
+    margin-left: -240px;
+    height: 360px;
+    margin-top: -180px;
+	background-color: #eee;
+	border:2px solid #777;
+}
+
+.parent-element {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.content {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

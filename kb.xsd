@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- definition of simple elements -->
+	<xs:element name="difficulty" type="xs:positiveInteger"/>
+	<xs:element name="image" type="xs:string"/>
+	<xs:element name="repbase" type="xs:positiveInteger"/>
+	<xs:element name="incfactor" type="xs:decimal"/>
+
+	<!-- definition of attributes -->
+	<xs:attribute name="name" type="xs:string"/>
+	<xs:attribute name="desc" type="xs:string"/>
+	<xs:attribute name="image" type="xs:string"/>
+
+	<!-- definition of complex elements -->
+	<xs:element name="muscle">
+	  <xs:attribute ref="name"/>
+	  <xs:attribute ref="image"/>
+	  <xs:attribute ref="desc"/>
+	  <xs:complexType>
+		<xs:sequence>
+		
+		  <xs:element name="type">
+			<xs:attribute ref="name"/>
+			<xs:attribute ref="desc"/>
+			<xs:complexType>
+				<xs:sequence>
+				
+					<xs:element name="exercise">
+						<xs:attribute ref="name"/>
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element ref="difficulty"/>
+								<xs:element ref="image"/>
+								<xs:element ref="repbase"/>
+								<xs:element ref="incfactor"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					
+				</xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  
+		</xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+</xs:schema> 

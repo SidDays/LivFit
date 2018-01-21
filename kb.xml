@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="kb.xsl" ?>
+<workouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="kb.xsd">
+	<muscle name="Chest" image="images/kb/chest/chest.jpg">
+		<type name="Upper Chest" desc="The following workouts help in toning the upper chest muscles, i.e. the shaping up of the pectorals.">
+			<exercise name="Barbell Incline Bench Press - Medium Grip">
+				<difficulty>2</difficulty>
+				<image>images/kb/chest/upper/barbell.jpg</image>
+				<repbase>12</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			<exercise name="Incline Dumbbell Press">
+				<difficulty>2</difficulty>
+				<image>images/kb/chest/upper/dumbell.jpg</image>
+				<repbase>16</repbase>
+				<incfactor>2</incfactor>
+			</exercise>
+			<exercise name="Incline Dumbbell Fly">
+				<difficulty>2</difficulty>
+				<image>images/kb/chest/upper/flyes.jpg</image>
+				<repbase>16</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			<exercise name="Push-ups">
+				<difficulty>2</difficulty>
+				<image>images/kb/chest/upper/pushups.jpg</image>
+				<repbase>12</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+		</type>
+		
+		<type name="Middle Chest" desc="These exercises help in shaping up the frontal portion of the chest giving it the shape as desired by most men!">
+			<exercise name="Barbell Bench Press - Medium Grip">
+				<difficulty>2</difficulty>
+				<image>images/kb/chest/middle/barbell.jpg</image>
+				<repbase></repbase>
+				<incfactor></incfactor>
+			</exercise>
+			<exercise name="Dumbbell bench press">
+				<difficulty>1</difficulty>
+				<image>images/kb/chest/middle/dumbell.jpg</image>
+				<repbase>16</repbase>
+				<incfactor></incfactor>
+			</exercise>
+			<exercise name="Dumbbell Fly">
+				<difficulty>1</difficulty>
+				<image>images/kb/chest/middle/flyes.jpg</image>
+				<repbase>16</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			<exercise name="Push-ups">
+				<difficulty>1</difficulty>
+				<image>images/kb/chest/middle/pushups.jpg</image>
+				<repbase>16</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+		</type>
+		
+		<type name="Lower Chest" desc="These exercises help you get that size that'll give you the perfect Greek god chest and a firm and bold abdominal structure.">
+			<exercise name="Decline Barbell Bench Press - Medium Grip">
+				<difficulty>3</difficulty>
+				<image>images/kb/chest/lower/barbell.jpg</image>
+				<repbase>12</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			<exercise name="Decline Dumbbell Press">
+				<difficulty>3</difficulty>
+				<image>images/kb/chest/lower/dumbell.jpg</image>
+				<repbase>12</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			<exercise name="Decline Dumbbell Fly">
+				<difficulty>3</difficulty>
+				<image>images/kb/chest/lower/flyes.jpg</image>
+				<repbase>12</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			<exercise name="Push-ups">
+				<difficulty>2</difficulty>
+				<image>images/kb/chest/lower/pushups.jpg</image>
+				<repbase>12</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+		</type>
+	</muscle>
+	
+	
+	<muscle name="Back" image="images/kb/back/back.jpg">
+		<type name="Lower Back" desc="It results in the depression of the scapula.">
+			<exercise name="Hyper extensions">
+				<difficulty>1</difficulty>
+				<image>images/kb/back/lower/hyper.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>3</incfactor>
+			</exercise>
+			<exercise name="Stiff-legged good mornings">
+				<difficulty>3</difficulty>
+				<image>images/kb/back/lower/stiff.jpg</image>
+                <repbase>10</repbase>
+                <incfactor>2</incfactor>
+            </exercise>
+        </type>
+        <type name="Middle Back" desc="It targets the retraction of the scapula and the rotation of the scapula.">
+            <exercise name="Bent over barbell rows">
+                <difficulty>3</difficulty>
+                <image>images/kb/back/middle/bent over.jpg</image>
+                <repbase>8-10</repbase>
+                <incfactor>2</incfactor>
+            </exercise>
+            <exercise name="Seated cable rows">
+                <difficulty>1</difficulty>
+                <image>images/kb/back/middle/seated cable.jpg</image>
+                <repbase>15</repbase>
+                <incfactor>3</incfactor>
+            </exercise>
+        </type>
+        <type name="Lats" desc="Its functions are extension, abduction and medical rotation.">
+            <exercise name="Pull-ups">
+                <difficulty>2</difficulty>
+                <image>images/kb/back/lats/pullups.jpg</image>
+                <repbase>0</repbase> <!-- 0 = do until failure-->
+                <incfactor>0</incfactor>
+            </exercise>
+            <exercise name="Wide grip lat pull down">
+                <difficulty>1</difficulty>
+                <image>images/kb/back/lats/lat.jpg</image>
+                <repbase>15</repbase>
+                <incfactor>3</incfactor>
+            </exercise>
+        </type>
+        <type name="Traps" desc="Its functions are the elevation,abduction and depression of the scapula.">
+            <exercise name="Barbell shrugs">
+                <difficulty>1</difficulty>
+                <image>images/kb/back/traps/shrugs.jpg</image>
+                <repbase>15</repbase>
+                <incfactor>4</incfactor>
+            </exercise>
+            <exercise name="Upright rows">
+                <difficulty>2</difficulty>
+                <image>images/kb/back/traps/upright.jpg</image>
+                <repbase>10</repbase>
+                <incfactor>3</incfactor>
+            </exercise>
+        </type>
+    </muscle>
+	
+	
+	
+	
+	<muscle name="Arms"  image="images/kb/arms/arm.jpg" desc="Follow these workouts to get those bulky, well toned muscular arms to impress one and all.A well planned workout schedule is what you need to make these exercises into your bulging muscles!">
+		<type name="Biceps" desc="Tone up those biceps to get that beautiful bulging shape every time you flex. These exercises target your core biceps and help them grow bigger and shapely.">
+			<exercise name="Barbell curls">
+				<difficulty>1</difficulty>
+				<image>images/kb/arms/biceps/barbell.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Alternate incline dumbbell curls">
+				<difficulty>1</difficulty>
+				<image>images/kb/arms/biceps/alternate.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Standing biceps cable curls">
+				<difficulty>1</difficulty>
+				<image>images/kb/arms/biceps/cable.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Preacher curls">
+				<difficulty>1</difficulty>
+				<image>images/kb/arms/biceps/preacher.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+				
+			</exercise><exercise name="Concentration curls">
+				<difficulty>1</difficulty>
+				<image>images/kb/arms/biceps/concentration.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>			
+			
+		</type>
+		
+		<type name="Triceps" desc="Complement your biceps with shapely strong triceps. These exercises target your triceps and help them grow shapely and give an overall good shape to your arms.">
+			<exercise name="Bench dips">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/triceps/dips.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Skull crushers (standing and bench)">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/triceps/skullcrusher.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Machine push downs">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/triceps/machine.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Cable pull downs">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/triceps/pull.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Bent over cable extensions">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/triceps/bent.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Body-up">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/triceps/body up.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+		</type>
+		
+		<type name="Forearms" desc="Get shapely and broad forearms to complement your bulky biceps">
+			<exercise name="Cable wrist curls">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/forearms/cable wrist.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Finger curls">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/forearms/finger curls.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Palms-down wrist curls over a bench">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/forearms/palms down.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Palms-up wrist curls over a bench">
+				<difficulty>2</difficulty>
+				<image>images/kb/arms/forearms/palms up.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+		</type>
+	</muscle>
+	
+	
+	
+	
+	
+	<muscle name="Cardio" image="images/kb/cardio/cardio.jpg">
+		<type name="All exercises" desc="These exercises are not only for those who wish to shed those extra pounds but also play a great role in the enhancement of the endurance of a person. This in turn helps improve the overall well-being of an individual by improving the stamina and other cardiovascular functionalities. These require no complex equipment and can be done both indoors and outdoors.">
+			<exercise name="Jogging">
+				<difficulty>1</difficulty>
+				<image>images/kb/cardio/jogging.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>0</incfactor>
+			</exercise>
+			
+			<exercise name="Cycling">
+				<difficulty>1</difficulty>
+				<image>images/kb/cardio/cycling.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>0</incfactor>
+			</exercise>
+			
+			<exercise name="Cross Trainer">
+				<difficulty>2</difficulty>
+				<image>images/kb/cardio/cross.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>0</incfactor>
+			</exercise>
+			
+			<exercise name="High-intensity Interval Training">
+				<difficulty>3</difficulty>
+				<image>images/kb/cardio/hiit.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>0</incfactor>
+			</exercise>
+		</type>
+	</muscle>
+	
+	
+	
+	
+	
+	<muscle name="Legs" image="images/kb/legs/legs.jpg" desc="Get those shapely muscular legs with these exercises.">
+		<type name="Quadriceps" desc="These exercises work the quadriceps to give ou shapely outer thighs.">
+			<exercise name="Free Squats">
+				<difficulty>1</difficulty>
+				<image>images/kb/legs/quadriceps/free.jpg</image>
+				<repbase>25</repbase>
+				<incfactor>0</incfactor>
+			</exercise>
+			
+			<exercise name="Barbell Squats">
+				<difficulty>3</difficulty>
+				<image>images/kb/legs/quadriceps/barbell squats.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>3</incfactor>
+			</exercise>	
+			
+			<exercise name="Dumbbell Lunges">
+				<difficulty>2</difficulty>
+				<image>images/kb/legs/quadriceps/lunges.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>5</incfactor>
+			</exercise>	
+		</type>
+		
+		<type name="Hamstrings" desc="These exercises work your hamstring making it stronger and shaping it desirably.">
+			
+			<exercise name="Leg Extensions">
+				<difficulty>1</difficulty>
+				<image>images/kb/legs/hamstring/extensions.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			
+			<exercise name="Leg Press">
+				<difficulty>2</difficulty>
+				<image>images/kb/legs/hamstring/leg press.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			
+			<exercise name="Lying Leg Curls">
+				<difficulty>1</difficulty>
+				<image>images/kb/legs/hamstring/curls.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+		</type>
+		
+		<type name="Calves" desc="These exersices work your calves and give them the muscular shape desired by all.">
+			<exercise name="Standing Calf Raises">
+				<difficulty>1</difficulty>
+				<image>images/kb/legs/calves/standing.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+			
+			<exercise name="Sitting Calf Raises">
+				<difficulty>2</difficulty>
+				<image>images/kb/legs/calves/seated.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>4</incfactor>
+			</exercise>
+		</type>		
+	</muscle>
+	
+	
+	
+	
+	<muscle name="Abs" image="images/kb/abs/abs.jpg" desc="Want those 6-8 pack abs on your belly? Here are some simple workouts that'll help you achieve that greek god abdomen. A proper scheduled workout plan consisting of a combination of these workouts is what you need to get those biscuits forming on that abdomen.">
+		<type name="All exercises" desc="These exercises help develop the upper, lower and side abdominal muscles.">
+			<exercise name="3/4 sit-ups">
+				<difficulty>1</difficulty>
+				<image>images/kb/abs/sit-up.jpg</image>
+				<repbase>0</repbase> <!-- 0 = do until failure-->
+				<incfactor>0</incfactor>
+			</exercise>
+			
+			<exercise name="Ab crunch machine">
+				<difficulty>1</difficulty>
+				<image>images/kb/abs/abcrunch.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Air bike">
+				<difficulty>2</difficulty>
+				<image>images/kb/abs/air bike.jpg</image>
+				<repbase>15</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Planks">
+				<difficulty>2</difficulty>
+				<image>images/kb/abs/plank.jpg</image>
+				<repbase>60</repbase> <!--Seconds-->
+				<incfactor>30</incfactor>
+			</exercise>
+			
+			<exercise name="Declined and flat crunches">
+				<difficulty>2</difficulty>
+				<image>images/kb/abs/crunch.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>5</incfactor>
+			</exercise>
+			
+			<exercise name="Leg Raises">
+				<difficulty>2</difficulty>
+				<image>images/kb/abs/leg raises.jpg</image>
+				<repbase>20</repbase>
+				<incfactor>3</incfactor>
+			</exercise>
+		</type>
+	</muscle>
+</workouts>

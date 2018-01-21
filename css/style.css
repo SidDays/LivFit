@@ -1,0 +1,436 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: "PF Din";
+    src: url("../fonts/pfdindisplaypro-med-webfont.ttf");
+}
+@font-face {
+    font-family: "PF Din Italic";
+    src: url("../fonts/pfdindisplaypro-medital-webfont.ttf");
+}
+@font-face {
+    font-family: "PF Din Cond";
+    src: url("../fonts/pfdintextcondpro-medium-webfont.ttf");
+}
+@font-face {
+    font-family: "PF Din Light";
+    src: url("../fonts/pf-din.ttf");
+}
+@font-face {
+    font-family: "Open Din";
+    src: url("../fonts/OpenDinSchriftenEngshrift.ttf");
+}
+html
+{
+	overflow-y: scroll;
+	background: rgb(240,250,252);
+	background-image: url("../images/ui/dumb_blue.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 21px;
+}
+body
+{
+	background: rgba(255,255,255,0.7);
+	width: 73%;
+	margin: 0 auto;
+	font-family: "PF Din Light", sans-serif;
+	line-height: 1.25em;
+	padding: 0.7em;
+}
+a {
+	color: inherit;
+}
+a:link , a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+h1 {
+	font-family: "PF Din Cond";
+	color: rgb(255,0,48);
+	font-size: 2.3em;
+	line-height: 0.9em;
+}
+h2 {
+	color: rgb(21,32,79);
+	font-family: "PF Din";
+	font-size: 1.3em;
+	line-height: 0.75em;
+}
+form {
+	overflow: hidden;
+}
+
+#header {
+	height: 150px;
+	background: url("../images/ui/header.jpg"), rgb(29,40,55);
+	
+	border-bottom: 5px solid rgb(255,0,48);
+	margin-bottom: 1em;
+	margin-top: 1em;
+	vertical-align: middle;
+	padding: 0em 1em;
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+	margin-right: 1em;
+}
+
+.right {
+	margin-left: 1em;
+	vertical-align: middle;
+	overflow: hidden;
+}
+#header .button {
+	margin: 72px 12px;
+	float: right;
+}
+
+#header p
+{
+	font-family: "PF Din Cond";
+	text-transform: Uppercase;
+	color: White;
+	font-size: 1.5em;
+	float: right;
+	position: relative;
+	top: 72px;
+}
+
+#header img {
+	position: relative;
+	top: 14px;
+}
+
+
+/*	Navigation bar */
+
+#nav {
+	text-align: right;
+	vertical-align: middle;
+	background: rgb(255,0,48);
+	padding: 0px 0.5em;
+	font-size: 1.15em;
+	line-height: 1.43em;
+	color: White;
+}
+
+#nav .selected {
+	font-weight: bold;
+	font-family: "PF Din";
+	color: yellow;
+}
+
+#slide {
+	width: 97%;
+	position: relative;
+	background: url("../images/sampol.jpg") no-repeat scroll left top rgb(232,220,220);
+	height: 270px;
+	overflow: hidden;
+}
+
+#slidetext {
+	float: right;
+	padding: 36px 1em 36px 45%;
+	text-align: right;
+	display: table-cell;
+    vertical-align: middle;
+	font-family: "PF Din Italic";
+	color: White;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+	font-size: 1.8em;
+	line-height: 1.22em;
+	position: relative;
+}
+
+/* Login and register */
+
+.logininput {
+    font-family: inherit; 
+    height: 2.1em;
+    font-size: 0.8em;
+    display: table;
+    padding: 0.0005em;
+    border-bottom: 1px;
+    padding: 0 4px;
+}
+.reginput {
+    font-family: inherit; 
+    height: 2.1em;
+    font-size: 0.7em;
+    display: table;
+    padding: 0.0005em;
+    border-bottom: 1px;
+    padding: 0 4px;
+}
+.regdate {
+    font-family: inherit; 
+    font-size: 0.9em;
+    padding: 0.0005em;
+    border-bottom: 1px;
+    padding: 0 4px;
+}
+.buttonsmall { 
+	padding: 0.3em 1.5em;
+	
+	background: rgb(255,0,48); 
+	border: 2px solid rgb(255,255,255); 
+	border-radius: 5px;
+	color: rgb(255,255,255);
+	font-size: 1em;		
+	font-family: "PF Din Cond";
+	text-shadow: 1px 1px 0 gray;
+}
+
+.alertmsg{
+    color: red;
+	font-size: 0.7em;
+	text-shadow: 1px 1px 0 white;
+}
+.welcome { 
+	padding: 0.3em 1.5em;
+	text-align: center;
+	color: rgb(255,255,255);
+	font-size: 1.2em;		
+	font-family: "PF Din Cond";
+	text-shadow: 1px 1px 0 gray;
+}
+
+
+/*	The default content area */
+
+#content {
+	text-align: justify;
+}
+
+
+.button { 
+	padding: 0.3em 1.5em;
+	background: rgb(255,0,48); 
+	border: 2px solid rgb(255,255,255); 
+	border-radius: 5px;
+	color: rgb(255,255,255);
+	font-size: 1.2em;		
+	font-family: "PF Din Cond";
+	text-shadow: 1px 1px 0 gray;
+}
+
+/* Quiz section related */
+
+.mythorfact{
+	font-size: 1.1em;
+	color: rgb(53,60,105);
+	font-family: "PF Din Cond";
+	font-weight: bold;
+	text-shadow: 3px 3px white;
+}
+
+.clickhere {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.divbutton {
+	width: 35%;
+	text-align: center;
+	vertical-align: middle;
+	background: rgb(255,0,48);
+	color: white;
+	text-shadow: 2px 2px 1px #e45073;
+	font-family: "PF Din Cond";
+	font-size: 2.3em;
+	margin-top: 1em;
+	padding: 0.4em;
+	
+	border: 5px solid rgb(255,0,48);
+}
+
+.quiztype {
+	height: 3em;
+	background: url("../images/ui/header.jpg"), rgb(29,40,55);
+	background-size: 100%;
+}
+
+/* BMI Calculator */
+
+.bmioutput {
+    border: 1px;
+    font-family: "PF Din";
+    color: rgb(53,60,105);
+    font-size: 0.8em;
+}
+
+.formwhite {
+	padding: 0em 1em 1em 1em;
+	border: 2px solid rgb(53,60,105); 
+	border-radius: 5px;
+	background: white;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	padding: 0.5em 0 0.1em 0;
+	text-align: center;
+	font-family: "Tahoma", sans-serif;
+	font-size: 0.7em;
+	color: gray;
+}
+
+/* Workout Planner */
+
+.week {
+    table-layout: fixed;
+	width: 100%;
+	border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.day {
+    border-bottom: 1px solid #adb7b9; 
+    border-right: 1px solid #adb7b9; 
+    height: 15em;
+	padding: 3px;
+	background: hsla(222, 100%, 50%, 0.09);
+    border-radius: 0.4em;
+}
+
+.day #day_title {
+    color: rgb(255,0,48);
+    border-radius: 0.2em;
+    font-family: "PF Din Cond";
+    text-align: center;
+    text-shadow: 1px 1px white;
+    font-size: 1.2em;
+    background: rgba(255,255,255,0.5);
+}
+
+.day #day_img {
+    text-align: center;
+    padding: 0 3px;
+}
+
+.day #day_desc {
+	text-align:center;
+}
+
+.help {
+    font-size: 0.5em;
+    font-weight: bold;
+    vertical-align: super;
+}
+
+.switch {
+	text-align: center;
+	display: table-cell;
+    vertical-align: middle;
+	width: 2em;
+	height: 1em;
+	background: rgb(21,32,79);
+	color: white;
+	font-family: "PF Din Cond";
+	font-size: 2em;
+	margin-top: 1em;
+	border-radius: 3px;
+	border: 5px solid rgb(255,0,48);
+}
+
+#changeweek {
+	color: rgb(53,60,105);
+	font-family: "Open Din";
+	font-size: 20px;
+}
+
+/* KnowledgeBase specific */
+
+.muscle {
+	color: white;
+	background-color: rgb(255,0,48);
+	text-shadow: 2px 2px 0 black;
+	line-height: 1.3em;
+	font-size: 1.5em;
+	padding: 0px 0.2em;
+}
+
+.muscle2 {
+	color: white;
+	background-color: hsla(222, 100%, 50%, 0.09);
+	text-shadow: 2px 2px 0 black;
+	line-height: 1.3em;
+	font-size: 1.5em;
+	padding: 0px 0.2em;
+}
+
+div .musclegroup {
+	background-color: rgba(255,255,255,0);
+	border-radius: 4px;
+	border: 2px solid navy; 
+	padding: 1px 0.8em;
+}
+
+div .musclegroup h3 {
+	font-family: "Open Din";
+	font-size: 1.3em;
+	color: rgb(21,32,79);
+}
+
+.kbworkout {
+	border-right: 4px solid #CCC;
+	border-bottom: 4px solid #CCC;
+	border-radius: 0px;
+}
+
+/* Feedback */
+
+.feedback option, #feedback {
+	color: #806f00;
+}
+
+.feedback textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 2px 5px;
+	width: 100%;
+	resize: none;
+	overflow-y: scroll;
+}
+#seldif
+{
+	float:right;
+	padding: 1px 16px ;
+}
+#feedback_div {
+	width: 100%;
+	border: 4px #CCC solid;
+	border-radius: 1px;
+}
+
+.feedback_table {
+	width: 100%;
+	padding: 3px;
+	border: 3px white double;
+	line-height: 1.5em;
+}
+
+.feedback_table tr:nth-child(even) {
+	background: rgba(53,60,105,0.1);
+}
+
+.feedback_table th {
+	background-color: white;
+	color: rgb(53,60,105);
+	border: 1px #EEE solid;
+	border-radius: 3px;
+	padding: 0px 12px;
+}
+
+.feedback_table td {
+	padding: 0px 12px;
+}
