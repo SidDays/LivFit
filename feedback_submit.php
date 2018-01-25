@@ -15,13 +15,15 @@
 			<?php
 				session_start();
 				
-				$conn = mysql_connect("localhost","root","");
+				include("db.php");
+      
+				$conn = mysql_connect($servername, $username, $password);
 				if(!$conn)
 				{
 					die('Could not connect: ' . mysql_error());
 				}
 				
-				mysql_select_db("livfit", $conn);
+				mysql_select_db($dbname, $conn);
 				if(isset($_SESSION['sid']) && isset($_SESSION['current_user']))
 				{
 					$current_user = $_SESSION['current_user'];

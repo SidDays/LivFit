@@ -15,13 +15,16 @@
 			
 			if(isset($_SESSION['sid']) && isset($_SESSION['current_user']))
 			{
-			
-				$conn = mysql_connect("localhost","root","");
+				include("db.php");
+      
+				$conn = mysql_connect($servername, $username, $password);
+				
 				if (!$conn)
 				{
 					die('Could not connect: ' . mysql_error());
 				}
-				$db=mysql_select_db("livfit", $conn);
+
+				$db = mysql_select_db($dbname, $conn);
 				$sql = "select * from users where username='".$_SESSION['current_user']."'";
 
 				//$sql = "select * from users where username=$sessionvariable";

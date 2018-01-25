@@ -10,16 +10,13 @@
 		<?php include ("nav.php"); ?>
 		
 		<div id=content>
-			<img style="float: right;" src="images/a-ok small.png"></img>
+			<img style="float: right;" src="images/a-ok small.png">
 			
 			<h1>Feedback</h1>
 			<p>We're always willing to hear your voice! Let us know what you feel - if you have any complaints, suggestions, or even if you just want to leave a simple 'thank you', type it out. It'll help us improve our site and services. You <b>must be signed in</b> to comment below.</p>
 			
 			<?php
-				$servername = "localhost";
-				$username = "root";
-				$password = "";
-				$dbname = "livfit";
+				include("db.php");
 
 				// Create connection
 				$conn = mysqli_connect($servername, $username, $password, $dbname);

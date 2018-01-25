@@ -14,12 +14,15 @@
 			<br>
 			<?php
 			
-			$con = mysql_connect("localhost","root","");
-			if (!$con)
+			include("db.php");
+      
+			$conn = mysql_connect($servername, $username, $password);
+			if (!$conn)
 			{
 			  die('Could not connect: ' . mysql_error());
 			}
-			mysql_select_db("livfit", $con);
+              
+			mysql_select_db($dbname, $conn);
 
 			if(isset($_POST['Firstname']))
 			{
@@ -75,7 +78,7 @@
 			}	
 			else
 				echo "There was an error.<br>Something isn't working right!";
-			mysql_close($con);
+			mysql_close($conn);
 			?>
 			</div>
 		</div>

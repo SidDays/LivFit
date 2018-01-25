@@ -19,10 +19,7 @@
 				
 				if(isset($_SESSION['sid']) && isset($_SESSION['current_user']))
 				{
-					$servername = "localhost";
-					$username = "root";
-					$password = "";
-					$dbname = "livfit";
+					include("db.php");
 
 					// Create connection
 					$conn = mysqli_connect($servername, $username, $password, $dbname);

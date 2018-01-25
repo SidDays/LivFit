@@ -1,11 +1,13 @@
 <html>
-	<head>
-		<title>LivFit - Logging in...</title>
-		<link rel="stylesheet" type="text/css" href="css/message.css">
-		<link rel="shortcut icon" href="images/ui/favicon.ico">
-	</head>
-	<body>
-		<?php
+
+<head>
+	<title>LivFit - Logging in...</title>
+	<link rel="stylesheet" type="text/css" href="css/message.css">
+	<link rel="shortcut icon" href="images/ui/favicon.ico">
+</head>
+
+<body>
+	<?php
 			session_start();
 			if(isset($_POST['beg'])) 
 				$diff=$_POST['beg'];
@@ -15,18 +17,21 @@
 				$diff=$_POST['exp'];
 			else
 				$diff=NULL;
-			$conn = mysql_connect("localhost","root","");
+      
+         	include("db.php");
+      
+			$conn = mysql_connect($servername, $username, $password);
 			if (!$conn)
 			{
 				die('Could not connect: ' . mysql_error());
 			}
-			$db=mysql_select_db("livfit", $conn);
+      
+			mysql_select_db($dbname, $conn);
 			$sql = "UPDATE users SET difficulty='$diff' where username='".$_SESSION['current_user']."';";
 			$result =  mysql_query($sql);
 			echo "<script>location.href=\"wplanner.php\"</script>";
 		?>
-	</div>
-		</div>
-		</div>
-	</body>
+	
+</body>
+
 </html>

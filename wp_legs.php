@@ -11,12 +11,17 @@
 		<h1>Today's Workout</h1>		
 		<h2 class=muscle2>Legs</h2>
 		<?php
-			$conn = mysql_connect("localhost","root","");
+			include("db.php");
+      
+			$conn = mysql_connect($servername, $username, $password);
+		
 			if (!$conn)
 			{
 				die('Could not connect: ' . mysql_error());
 			}
-			$db=mysql_select_db("livfit", $conn);
+      
+			$db=mysql_select_db($dbname, $conn);
+      
 			// Echo dummy text
 			for($i = 0; $i<4096; $i++)
 			{

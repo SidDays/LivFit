@@ -13,13 +13,16 @@
 			<h1>Liv<font color=red>F</font>it</h1>
 			<br />
 			<?php
-				$conn = mysql_connect("localhost","root","");
+				include("db.php");
+      
+				$conn = mysql_connect($servername, $username, $password);
 				$success = false;
 				if (!$conn)
 				{
 					die('Could not connect: ' . mysql_error());
 				}
-				mysql_select_db("livfit", $conn);
+				
+				mysql_select_db($dbname, $conn);
 				if(isset($_POST['Username']))
 				{
 					$uname=$_POST['Username'];

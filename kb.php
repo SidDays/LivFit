@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>LivFit - KnowledgeBase</title>
