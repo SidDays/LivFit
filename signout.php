@@ -21,7 +21,7 @@
 					
 					session_destroy();
 					
-					header("location: gyms.php");
+					header("location: index.php");
 				}
 				else
 					echo "Error<br>(Not signed in?)";
