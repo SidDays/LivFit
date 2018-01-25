@@ -1,6 +1,6 @@
 <!-- Reuse the navigation bar code -->
 <div id=nav>
-		<p><a href="gyms.php">Home</a> |
+		<p><a href="index.php">Home</a> |
 		<a href="bmi.php">BMI Calculator</a> |
 		
 		<?php
